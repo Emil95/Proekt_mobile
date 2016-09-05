@@ -1,4 +1,4 @@
-function AddPictureWindow (Row ){
+function EditPictureWindow (id, album_name){
 	var win =Ti.UI.createWindow({
 			backgroundColor:'#4d94ff',
 			width:Ti.UI.FILL,
@@ -7,6 +7,11 @@ function AddPictureWindow (Row ){
 			left:10,
 			top:10,
 		});
+
+	////GET DATA FOR PICTURE ID/////
+	var db = require('lib/database');
+	var data = db.getPictureInfo(id);
+
 
 	var overView = Ti.UI.createView({
 		backgroundColor: '#transparent',
@@ -30,7 +35,7 @@ function AddPictureWindow (Row ){
 
 	var lbName = Ti.UI.createLabel({
 		 color: '#000',
-   		 text: 'Add Photo',
+   		 text: 'Edit photo',
     	 font: {
     		fontSize:30
     	},
@@ -101,7 +106,9 @@ function AddPictureWindow (Row ){
     width:Ti.UI.FILL,
     height:Ti.UI.SIZE,
     borderColor:'#000',
+    
 });
+	tbComment.setValue(data.comment);
 	leftBoddyInside.add(tbComment);
 
 	var leftBoddyInside2 = Ti.UI.createView({
@@ -125,18 +132,34 @@ function AddPictureWindow (Row ){
 		});
 	leftBoddyInside2.add(lbAlbumName);
 
-	var lbAlbum = Ti.UI.createLabel({
+	var albumPicker = Ti.UI.createPicker({
 			color: '#000',
-    		text:Row.title,
+			backgroundColor:'#899',
     		left:5,
    			 font:{
        		 	fontSize:20
     		},
-    		width:Ti.UI.SIZE,
+    		width:'60%',
     		height:Ti.UI.SIZE
 		});
-		leftBoddyInside2.add(lbAlbum);
 
+		///// GET PICKER DATA 
+		///// ALBUM NAMES AND IDS
+
+		var pickerData = db.getPickerData();
+
+		albumPicker.add(pickerData);
+		albumPicker.selectionIndicator = true;
+		leftBoddyInside2.add(albumPicker);
+
+		var selected = 0;
+		for (var i = 0; i<pickerData.length-1; i++){
+			if(pickerData[i].title===album_name)
+				break;
+			selected++;
+		}
+		
+		albumPicker.setSelectedRow(0, selected, false);
 
 	var lbPreview = Ti.UI.createLabel({
 		color: '#000',
@@ -152,68 +175,18 @@ function AddPictureWindow (Row ){
 	rightBoddy.add(lbPreview);
 
 	var picture = Ti.UI.createImageView({
-				image:'/images/no-image.png',
+				image:data.url,
  				 width:100,
  				 height:100,
  				 top:10,
- 				 borderColor:'#000',
- 				 picUrl:'',
+ 				 borderColor:'#000'
 
 		});
 	picture.addEventListener('click', function(e){
 			var Prev = require('ui/PreviewPhotoWindow');
-			var pic = new Prev (picture.picUrl , 3120, 4096);
+			var pic = new Prev (picture.image);
 		});
 	rightBoddy.add(picture);
-
-	var btnAddPhoto = Ti.UI.createButton({
-		title:'Add Photo',
-		backgroundColor:'#999999',
-		width:Ti.UI.SIZE,
-    	height:Ti.UI.SIZE
-
-		});
-	
-	btnAddPhoto.addEventListener('click', function(e){
-			
-		//	var TakePicture = require('ui/TakePhotoWindow');
-		//	var pic = new TakePicture(Row.number);
-		
-		Ti.API.debug(Titanium.Media.hasCameraPermissions( ));
-		Titanium.Media.showCamera({
-				success:function(event) {
-					
-					var image = event.media;
-					
-					blob = image.imageAsThumbnail(100);
-					picture.image= blob;
-					//picture.image = image;
-					if (image.getHeight()> 4096 )
-						image = image.imageAsResized(image.getWidth(), image.getHeight()- 200);
-				    if(image.getWidth() > 4096){
-						image = image.imageAsResized(image.getWidth()- 200, image.getHeight());
-					}
-
-					var f = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory,'photo'+ Row.title + Row.number +'.png');
-					f.write(image);
-					picture.picUrl=f.nativePath;
-					Ti.API.debug(picture.picUrl);
-				},
-				cancel:function() {},
-				error:function(error) {
-					var a = Ti.UI.createAlertDialog({title:'Camera unavailable'});
-						a.setMessage('Unexpected error: ' + error.code);
-				
-					a.show();
-				},
-				saveToPhotoGallery:true,
-				
-			});
-		
-		 
-	});
-		
-	rightBoddy.add(btnAddPhoto);
 
 	var footerView = Ti.UI.createView({
 		backgroundColor:'transparent',
@@ -237,41 +210,47 @@ function AddPictureWindow (Row ){
 			win.close();
 		});
 	footerView.add(btnCancel);
-	var btnAddPhotoToAlbum = Ti.UI.createButton({
-		title:'Add photo to album',
-		left:30,
+	var btnDelete = Ti.UI.createButton({
+		title:'Delete photo',
+		left:10,
 		backgroundColor:'#999999',
 		width:Ti.UI.SIZE,
 		height:Ti.UI.SIZE,
 		});
-	btnAddPhotoToAlbum.addEventListener('click', function(e){
-			if(tbComment.value!='' && picture.image!='/images/no-image.png'){
-				var db = require('lib/database');
-				db.addPhoto(Row.rowIndex,picture.picUrl , tbComment.value);
-				
-				win.close();
-			}
-			else{
-				if(tbComment.value == ''){
-					tbComment.borderColor='red';
-					alert('Comment is missing!');
-				}
-				else if (picture.image =='/images/no-image.png'){
-					picture.borderColor='red';
-					alert('Photo is missing!');
-				}
-				else {
-					tbComment.borderColor='red';
-					picture.borderColor='red';
-					alert('Comment and photo missing!');
-				}
-			}
-
+	btnDelete.addEventListener('click', function(e){
+			db.deletePicture(id,album_name);
+			var n = Ti.UI.createNotification({message:"Picture deleted!"});
+			n.duration = Ti.UI.NOTIFICATION_DURATION_LONG;
+			n.offsetX = 100;
+			n.offsetY = 75;
+		
+			n.show();
+			win.close();
+			
 
 		});
-	footerView.add(btnAddPhotoToAlbum);
+	footerView.add(btnDelete);
+	var btnSave = Ti.UI.createButton({
+		title:'Save',
+		left:10,
+		backgroundColor:'#999999',
+		width:Ti.UI.SIZE,
+		height:Ti.UI.SIZE,
+		});
+	btnSave.addEventListener('click', function(e){
+		db.saveChange(id, tbComment.value, albumPicker.getSelectedRow(0) ,album_name);
+			var n = Ti.UI.createNotification({message:"Picture changes saved!"});
+			n.duration = Ti.UI.NOTIFICATION_DURATION_LONG;
+			n.offsetX = 100;
+			n.offsetY = 75;
+			n.show();
+
+			win.close();
+		
+		});
+	footerView.add(btnSave);
 
 	win.open();
 	return win;
 };
-module.exports = AddPictureWindow;
+module.exports = EditPictureWindow;

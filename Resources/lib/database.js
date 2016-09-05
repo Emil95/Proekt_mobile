@@ -48,7 +48,7 @@ exports.list = function(){
   				left:5,
     			color:'#000',
     			text:results.fieldByName('name'),
-    			width:Ti.UI.SIZE,
+    			width:'80%',
     			height:Ti.UI.SIZE,
   				});
   				row.add(labelAlbum);
@@ -56,7 +56,7 @@ exports.list = function(){
   				var labelDetails = Ti.UI.createLabel({
     			color:'#fff',
     			backgroundColor:'blue',
-    			left:'80%',
+    			left:'85%',
     			borderRadius:15,
     			text:results.fieldByName('number'),
     			width:Ti.UI.SIZE,
@@ -96,6 +96,7 @@ exports.getPictures = function (id){
 	while(rez.isValidRow()){
 
 		 var row = Ti.UI.createView({
+		 		 title:row,
                  width:Ti.UI.FILL,
                  height:Ti.UI.SIZE,
                  layout:'horizontal',
@@ -104,7 +105,7 @@ exports.getPictures = function (id){
                 
   				});
 
-		 		for(var i = 0; i<2 || rez.isValidRow() ; i++){
+		 		for(var i = 0; i<2 && rez.isValidRow() ; i++){
 
 		 		var coll = Ti.UI.createView({
                  width:'50%',
@@ -112,16 +113,23 @@ exports.getPictures = function (id){
                  top:0,
                  height:Ti.UI.SIZE,
                  layout:'vertical',
+                index:rez.fieldByName('id')
                 
   				});
+
+
 
   				var IvPicture = Ti.UI.createImageView({
  				 image:rez.fieldByName('url'),
  				 width:100,
- 				 height:90
+ 				 height:90,
+ 				 id:rez.fieldByName('id')
+ 				 
 				});
-  				coll.add(IvPicture);
+  				
+  				
 
+  				coll.add(IvPicture);
   				var lbComment = Ti.UI.createLabel({
     			color:'#000',
     			top:10,
@@ -159,6 +167,77 @@ exports.addPhoto = function (albumID, URL, comm){
 	
 };
 
+exports.getPictureInfo = function(id){
+	var data ;
+	var db = Ti.Database.open('ProektSliki');
+	var rez = db.execute('SELECT * FROM sliki WHERE id = ?' ,id);
+	while(rez.isValidRow()){
+			
+				data = {
+				url:rez.fieldByName('url'),
+				comment:rez.fieldByName('comment'),
+				album_id:rez.fieldByName('albumi_id')};
+
+		
+		rez.next();
+	}
+	rez.close();
+	db.close();
+	return data;
+
+};
+exports.getPickerData = function(){
+	var data = [];
+	var db = Ti.Database.open('ProektSliki');
+	var rez = db.execute('SELECT * FROM albumi ' );
+	while(rez.isValidRow()){
+		
+			var row = Ti.UI.createPickerRow({
+				title:rez.fieldByName('name'),
+				id:rez.fieldByName('id'),
+				number:rez.fieldByName('number')
+				});
+			
+		data.push(row);
+		rez.next();
+	}
+	rez.close();
+	db.close();
+	return data;
+
+};
+exports.deletePicture = function(id, albumName){
+	var db = Ti.Database.open('ProektSliki');
+	db.execute('DELETE FROM sliki WHERE id = ?', id);
+	var numberUpdate = db.execute('SELECT number FROM albumi WHERE name = ?',albumName );
+	var num = numberUpdate.fieldByName('number');
+	db.execute('UPDATE albumi SET number = ?  WHERE name = ?',num-1 ,albumName);
+	db.close();
+	
+	Ti.App.fireEvent("databaseUpdated");
+	Ti.App.fireEvent("databasePicUpdated");
+	
+
+};
+
+exports.saveChange = function(id, commentChange , albumNameTo , albumNameFrom){
+	var db = Ti.Database.open('ProektSliki');
+	var rez = db.execute('SELECT id, number FROM albumi WHERE name = ?',albumNameTo);
+	var idTo = rez.fieldByName('id');
+	var numberTo = rez.fieldByName('number');
+
+	db.execute('UPDATE sliki SET comment = ? , albumi_id = ? WHERE id = ?', commentChange,idTo, id );
+	db.execute('UPDATE albumi SET number = ? WHERE id = ?', numberTo+1, idTo );
+
+	var rez = db.execute('SELECT number FROM albumi WHERE name = ?',albumNameFrom );
+	var numberFrom = rez.fieldByName('number');
+	db.execute('UPDATE albumi SET number = ? WHERE name = ?', numberFrom-1, albumNameFrom );
+
+
+	db.close();
+	Ti.App.fireEvent("databaseUpdated");
+	Ti.App.fireEvent("databasePicUpdated");
+};
 
 
 

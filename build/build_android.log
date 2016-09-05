@@ -1,5 +1,5 @@
 
-9/1/2016, 7:07:33 PM
+9/5/2016, 7:49:46 PM
 
 Operating System
   Name                        = Microsoft Windows 10 Pro
@@ -55,55 +55,56 @@ Command
 [TRACE]  Starting emulator: Google Nexus 5 - 5.1.0 - API 22 - 1080x1920
 [TRACE]  Checking if emulator Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 is running...
 [TRACE]  Detecting if Google Nexus 5 - 5.1.0 - API 22 - 1080x1920 exists...
-[TRACE]  Found 5 emulators
+[TRACE]  Found 6 emulators
 [TRACE]  Emulator exists, detecting all running emulators and connected devices...
-[TRACE]  Detected 1 running emulators and connected devices
-[TRACE]  Checking 1 devices to see if it's the emulator we want
+[TRACE]  Detected 2 running emulators and connected devices
+[TRACE]  Checking 2 devices to see if it's the emulator we want
 [TRACE]  The emulator is running
 [INFO]   Emulator already running
 [TRACE]  Checking the boot state for the next 240000 ms
 [TRACE]  Waiting for emulator to register with ADB
 [TRACE]  Emulator process started
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources
-[DEBUG]  Ignoring C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android
-[WARN]   Overwriting file C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\images\no-image.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\images\no-image.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\images\no-image.png
-[WARN]   Overwriting file C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\KS_nav_ui.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\KS_nav_ui.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\KS_nav_ui.png
-[WARN]   Overwriting file C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\KS_nav_views.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\KS_nav_views.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\KS_nav_views.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android
-[WARN]   Overwriting file C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\appicon.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\appicon.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\appicon.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable\background.png
-[TRACE]  Found 1 devices, checking if any of them are the emulator...
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources
+[DEBUG]  Ignoring C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android
+[WARN]   Overwriting file C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\images\no-image.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\images\no-image.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\images\no-image.png
+[WARN]   Overwriting file C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\KS_nav_ui.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\KS_nav_ui.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\KS_nav_ui.png
+[WARN]   Overwriting file C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\KS_nav_views.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\KS_nav_views.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android
+[WARN]   Overwriting file C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\appicon.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\appicon.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-long-land-hdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-long-land-ldpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-long-port-hdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-long-port-ldpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-land-hdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-land-ldpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-land-mdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-port-hdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-port-ldpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\android\images\res-notlong-port-mdpi\default.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\appicon.png => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\drawable\appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\app.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\app.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\lib\database.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\lib\database.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\AddAlbumWindow.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\AddAlbumWindow.js
+[TRACE]  Found 2 devices, checking if any of them are the emulator...
 [TRACE]  Emulator is running!
 [TRACE]  Checking if boot animation has finished...
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\AddPictureWindow.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\AddPictureWindow.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\AlbumsTable.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\AlbumsTable.js
 [TRACE]  Emulator is booted, emitting booted event
 [INFO]   Emulator is booted
 [INFO]   SD card not required, skipping mount check
 [INFO]   Emulator ready!
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-long-land-hdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-long-land-hdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-long-land-ldpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-long-land-ldpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-long-port-hdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-long-port-hdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-long-port-ldpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-long-port-ldpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-land-hdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-land-hdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-land-ldpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-land-ldpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-land-mdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-land-mdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-port-hdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-port-hdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-port-ldpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-port-ldpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\android\images\res-notlong-port-mdpi\default.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable-notlong-port-mdpi\background.png
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\appicon.png => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\drawable\appicon.png
-[INFO]   Processing JavaScript files
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\app.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\app.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\lib\database.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\lib\database.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\AddAlbumWindow.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\AddAlbumWindow.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\AddPictureWindow.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\AddPictureWindow.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\AlbumsTable.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\AlbumsTable.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\AlbumsView.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\AlbumsView.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\MainWindow.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\MainWindow.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\PicturesView.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\PicturesView.js
-[DEBUG]  Copying C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\Resources\ui\PreviewPhotoWindow.js => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\Resources\ui\PreviewPhotoWindow.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\AlbumsView.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\AlbumsView.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\EditPictureWindow.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\EditPictureWindow.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\MainWindow.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\MainWindow.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\PicturesView.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\PicturesView.js
+[DEBUG]  Copying C:\Users\eniko\Desktop\Praksa\Proekt\Resources\ui\PreviewPhotoWindow.js => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\Resources\ui\PreviewPhotoWindow.js
 [DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-v8.jar
 [DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.jar
 [DEBUG]  Adding dependency library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\aps-analytics.jar
@@ -134,66 +135,67 @@ Command
 [DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.jar
 [DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar
 [DEBUG]  Adding library C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar
-[INFO]   Writing C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets\app.json
+[DEBUG]  Unknown namespace api, skipping
+[INFO]   Writing C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets\app.json
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.res.zip
-[DEBUG]  Copying C:\Users\eniko\AppData\Local\Temp\11681-2920-1wv238r\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Copying C:\Users\eniko\AppData\Local\Temp\11685-6392-1f79p3n\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-android.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-11ajqlh\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-11lgpmq\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-filesystem.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-wgc6b6\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-acz2am\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-app.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1uwejpj\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-1e0b1l3\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-media.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-r8zhti\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-17qgm0b\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-locale.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1vgcmud\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-s9vpu0\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-network.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1vbg80d\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-8hv6rc\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-xml.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1epn07k\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-1gtes5b\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-utils.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1b01zio\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-1ed7ojg\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-geolocation.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-16n2zi2\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-1nx0vqi\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-accelerometer.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1kfedc1\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-b2rwme\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-contacts.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-hxzg79\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-1t5juls\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-map.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1i825a5\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-6bmikq\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-calendar.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1o3tipk\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-9p9qs\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-2x0x9u\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-hzluh8\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-14h8qco\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-75m397\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
 [INFO]   Extracting module resources: C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.res.zip
-[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11681-2920-1ii3bdk\res\values\strings.xml => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.classpath
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.gitignore
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.project
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\AndroidManifest.xml
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\default.properties
-[DEBUG]  Removing old file: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\java-sources.txt
-[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\AppInfo.java => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\gen\com\Proekt\ProektAppInfo.java
-[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\App.java => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\gen\com\Proekt\ProektApplication.java
-[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\Activity.java => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\gen\com\Proekt\ProektActivity.java
-[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\project => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.project
-[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\default.properties => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\default.properties
-[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\gitignore => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.gitignore
-[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\classpath => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\.classpath
+[DEBUG]  Merging C:\Users\eniko\AppData\Local\Temp\11685-6392-rd81ft\res\values\strings.xml => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.classpath
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.gitignore
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.project
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\AndroidManifest.xml
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\default.properties
+[DEBUG]  Removing old file: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\java-sources.txt
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\AppInfo.java => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\gen\com\Proekt\ProektAppInfo.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\App.java => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\gen\com\Proekt\ProektApplication.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\Activity.java => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\gen\com\Proekt\ProektActivity.java
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\project => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.project
+[DEBUG]  Copying template C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\default.properties => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\default.properties
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\gitignore => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.gitignore
+[DEBUG]  Copying C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\templates\build\classpath => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\.classpath
 [INFO]   No aidl files to compile, continuing
 [INFO]   Generating i18n files
 [DEBUG]  Compiling localization files
 [DEBUG]  Processing i18n file: en-US/strings.xml
-[DEBUG]  Writing en-US strings => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values-en-rUS\strings.xml
-[DEBUG]  Merging en strings => C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\strings.xml
-[INFO]   Generating C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res\values\theme.xml
-[INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.1\aapt.exe "package" "-f" "-m" "-J" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\gen" "-M" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\AndroidManifest.xml" "-A" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\assets" "-S" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\res" "-I" "C:\android-sdk-win\platforms\android-23\android.jar" "-F" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "C:\Users\eniko\AppData\Local\Temp\11681-2920-19c57s2/res" "-S" "C:\Users\eniko\AppData\Local\Temp\11681-2920-m5t5tk/res" "-S" "C:\Users\eniko\AppData\Local\Temp\11681-2920-dywj4j/res"
-[INFO]   Building Java source files: C:\Program Files\Java\jdk1.8.0_71\bin\javac.exe "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "C:\android-sdk-win\platforms\android-23\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-cardview.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\cardview-v7-23.0.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-utils.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-geolocation.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-accelerometer.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-contacts.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-map.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-calendar.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\lib\titanium-verify.jar;R.class;ProektActivity.class;ProektAppInfo.class;ProektApplication.class" "-d" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\java-sources.txt"
-[INFO]   Running dexer: C:\Program Files\Java\jdk1.8.0_71\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=C:\android-sdk-win\platform-tools" "-jar" "C:\android-sdk-win\build-tools\23.0.1\lib\dx.jar" "--dex" "--output=C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\classes.dex" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\lib\titanium-verify.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-cardview.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\cardview-v7-23.0.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-utils.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-geolocation.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-accelerometer.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-contacts.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-map.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-calendar.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar"
+[DEBUG]  Writing en-US strings => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values-en-rUS\strings.xml
+[DEBUG]  Merging en strings => C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\strings.xml
+[INFO]   Generating C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res\values\theme.xml
+[INFO]   Packaging application: C:\android-sdk-win\build-tools\23.0.1\aapt.exe "package" "-f" "-m" "-J" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\gen" "-M" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\AndroidManifest.xml" "-A" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\assets" "-S" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\res" "-I" "C:\android-sdk-win\platforms\android-23\android.jar" "-F" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "C:\Users\eniko\AppData\Local\Temp\11685-6392-1e507h7/res" "-S" "C:\Users\eniko\AppData\Local\Temp\11685-6392-1wxzoi0/res" "-S" "C:\Users\eniko\AppData\Local\Temp\11685-6392-msf5uk/res"
+[INFO]   Building Java source files: C:\Program Files\Java\jdk1.8.0_71\bin\javac.exe "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "C:\android-sdk-win\platforms\android-23\android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-v8.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\aps-analytics.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-android.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\jaxen-1.1.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\ti-commons-codec-1.3.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-common.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\titanium.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-filesystem.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-app.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-ui.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\nineoldandroids-appc-2.4.0.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-media.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v4.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v7-appcompat.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-cardview.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\cardview-v7-23.0.1.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-locale.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-network.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-xml.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-utils.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-geolocation.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-accelerometer.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-contacts.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-map.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-calendar.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar;C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\lib\titanium-verify.jar;R.class;ProektActivity.class;ProektAppInfo.class;ProektApplication.class" "-d" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@C:\Users\eniko\Desktop\Praksa\Proekt\build\android\java-sources.txt"
+[INFO]   Running dexer: C:\Program Files\Java\jdk1.8.0_71\bin\java.exe "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=C:\android-sdk-win\platform-tools" "-jar" "C:\android-sdk-win\build-tools\23.0.1\lib\dx.jar" "--dex" "--output=C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\classes.dex" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\classes" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\lib\titanium-verify.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-v8.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\aps-analytics.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-android.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\jaxen-1.1.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\ti-commons-codec-1.3.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\kroll-common.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\titanium.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-filesystem.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-app.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-ui.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\nineoldandroids-appc-2.4.0.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-media.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v4.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\android-support-v7-appcompat.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-cardview.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\cardview-v7-23.0.1.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-locale.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-network.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-xml.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-utils.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-geolocation.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-accelerometer.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-contacts.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-map.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-calendar.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-gesture.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar"
 [INFO]   Creating unsigned apk
-[DEBUG]  Processing C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\app.ap_
+[DEBUG]  Processing C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
 [DEBUG]  Adding assets/Resources/KS_nav_ui.png
 [DEBUG]  Adding assets/Resources/KS_nav_views.png
@@ -206,6 +208,7 @@ Command
 [DEBUG]  Deflating assets/Resources/ui/AddPictureWindow.js
 [DEBUG]  Deflating assets/Resources/ui/AlbumsTable.js
 [DEBUG]  Deflating assets/Resources/ui/AlbumsView.js
+[DEBUG]  Deflating assets/Resources/ui/EditPictureWindow.js
 [DEBUG]  Deflating assets/Resources/ui/MainWindow.js
 [DEBUG]  Deflating assets/Resources/ui/PicturesView.js
 [DEBUG]  Deflating assets/Resources/ui/PreviewPhotoWindow.js
@@ -605,7 +608,7 @@ Command
 [DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-platform.jar
 [DEBUG]  Processing C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\modules\titanium-database.jar
 [DEBUG]  Adding classes.dex
-[INFO]   Processing C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\src
+[INFO]   Processing C:\Users\eniko\Desktop\Praksa\Proekt\build\android\src
 [DEBUG]  Adding lib/armeabi/libkroll-v8.so
 [DEBUG]  Adding lib/armeabi/libstlport_shared.so
 [DEBUG]  Adding lib/armeabi/libtiverify.so
@@ -615,18 +618,18 @@ Command
 [DEBUG]  Adding lib/x86/libkroll-v8.so
 [DEBUG]  Adding lib/x86/libstlport_shared.so
 [DEBUG]  Adding lib/x86/libtiverify.so
-[INFO]   Writing unsigned apk: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\app-unsigned.apk
+[INFO]   Writing unsigned apk: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\app-unsigned.apk
 [INFO]   Using MD5withRSA signature algorithm
-[INFO]   Signing apk: C:\Program Files\Java\jdk1.8.0_71\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\Proekt.apk" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\app-unsigned.apk" "tidev"
-[INFO]   Aligning zip file: C:\android-sdk-win\build-tools\23.0.1\zipalign.exe "-v" "4" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\Proekt.apk" "C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\Proekt.apkz"
-[INFO]   Writing build manifest: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\build-manifest.json
+[INFO]   Signing apk: C:\Program Files\Java\jdk1.8.0_71\bin\jarsigner.exe "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "C:\ProgramData\Titanium\mobilesdk\win32\5.4.0.GA\android\dev_keystore" "-storepass" "*******" "-signedjar" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\Proekt.apk" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: C:\android-sdk-win\build-tools\23.0.1\zipalign.exe "-v" "4" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\Proekt.apk" "C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\Proekt.apkz"
+[INFO]   Writing build manifest: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\build-manifest.json
 [INFO]   Making sure the adb server is running
-[INFO]   Installing apk: C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\Proekt.apk
+[INFO]   Installing apk: C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\Proekt.apk
 [TRACE]  Checking if package manager service is started
 [TRACE]  Package manager has started
-[TRACE]  Executing: C:\android-sdk-win\platform-tools\adb.exe -s 192.168.17.101:5555 install -r C:\Users\eniko\Documents\Appcelerator_Studio_Workspace\Proekt\build\android\bin\Proekt.apk
+[TRACE]  Executing: C:\android-sdk-win\platform-tools\adb.exe -s 192.168.68.101:5555 install -r C:\Users\eniko\Desktop\Praksa\Proekt\build\android\bin\Proekt.apk
 [INFO]   App successfully installed
 [INFO]   Starting app: com.Proekt/.ProektActivity
 [DEBUG]  Trying to start the app...
-[INFO]   Application pid: 5768
-[INFO]   Project built successfully in 11m 41s 234ms
+[INFO]   Application pid: 2167
+[INFO]   Project built successfully in 54s 812ms

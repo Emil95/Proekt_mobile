@@ -42,7 +42,24 @@ function PictiresView(/* ROW OBJ*/ Row){
 			PView.remove(PicView);
 	var db = require('lib/database');
 	PicView = db.getPictures(Row.rowIndex);
+
+	
+	
+	
+		PView.addEventListener('longpress', function(e){
+			var anim = Ti.UI.createAnimation({
+					opacity:0.4,
+					duration : 2000,
+   				    autoreverse : true,
+
+				});
+			PicView.animate(anim);
+			var EditView = require('ui/EditPictureWindow');
+			var editPic = new EditView(e.source.id,Row.title);
+		});
+
 	PView.add(PicView);
+
 	}
 	Ti.App.addEventListener('databasePicUpdated', getPic);
 	getPic();

@@ -5,6 +5,7 @@ db.execute('CREATE TABLE IF NOT EXISTS sliki(id INTEGER PRIMARY KEY AUTOINCREMEN
 db.close();
 
 
+
 var add = function(_name) {
 	var db = Ti.Database.open('ProektSliki');
 
@@ -240,4 +241,75 @@ exports.saveChange = function(id, commentChange , albumNameTo , albumNameFrom){
 };
 
 
+var updateDatabase = function(data) {
+	var db = Ti.Database.open('ProektSliki');
+	var getDataAlbumi = data.albumi;
+	for (var i = 0 ; i<data.albumi.length;i++){
+		var albId = getDataAlbumi[i].albumId;
+		var albName =getDataAlbumi[i].name;
+		var albSize = getDataAlbumi[i].number;
+		var getSliki = getDataAlbumi[i].sliki;
+			for (var i = 0 ; i<getSliki.length;i++){
+				var slikaId = getSliki[i].slikaId;
+				var slikaUrl = getSliki[i].url;
+				var slikaComment = getSliki[i].comment;
 
+				db.execute('INSERT INTO sliki(id , url , comment , albumi_id ) VALUES(? ,?, ? , ?) ',slikaId, slikaUrl, slikaComment, albId);
+			}
+
+		db.execute("INSERT INTO albumi(id , name, number) VALUES(?, ?,?) ",albId, albName, albSize);
+	}
+	
+
+	
+
+		db.close();
+
+	
+	Ti.App.fireEvent("databaseUpdated");
+	return 0;
+	
+};
+exports.updateDatabase = updateDatabase;
+
+var getDbforSync = function(id) {
+	var db = Ti.Database.open('ProektSliki');
+	
+	
+	var albumiData = [];
+	var rez = db.execute('SELECT * FROM albumi' );
+	while(rez.isValidRow()){
+		var slikiData = [];
+		var slikiRez = db.execute('SELECT * FROM sliki WHERE id=?', rez.fieldByName('id'));
+			while(slikiRez.isValidRow()){
+				var slika = {
+					slikaId:slikiRez.fieldByName('id'),
+					url:slikiRez.fieldByName('url'),
+					comment:slikiRez.fieldByName('comment')
+				}
+			slikiData.push(slika);
+			slikiRez.next();
+		}
+		slikiRez.close();
+		var albums ={	
+				albumId:rez.fieldByName('id'),
+				name:rez.fieldByName('name'),
+				number:rez.fieldByName('number'),
+				sliki:slikiData
+				}
+
+			
+
+		albumiData.push(albums);
+		rez.next();
+	}
+	var data={userId:id,albumi:albumiData};
+		rez.close()
+		db.close();
+
+	
+	
+	return data;
+	
+};
+exports.getDbforSync = getDbforSync;

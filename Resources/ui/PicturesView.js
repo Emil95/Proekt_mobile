@@ -9,16 +9,13 @@ function PictiresView(/* ROW OBJ*/ Row){
 	});
 	
 	
-	//	var db = require('lib/database');
-	//	var name  = db.getName(id);
 		
-		//Ti.API.warn(Row.rowIndex);
 	
 	var lbAlbumName = Ti.UI.createLabel({
 			text:Row.title,
 			color:'#000',
 			 font: { fontSize:30 },
-			top:5,
+			top:15,
 			left:5,
 			width:Ti.UI.SIZE,
 			height:'7%',
